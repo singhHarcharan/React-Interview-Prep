@@ -1,5 +1,5 @@
-import Tooltip from './components/Tooltip.jsx';
-import './components/Tooltip.css';
+import Tooltip from './Tooltip.jsx';
+import './Tooltip.css';
 
 export default function DemoButton() {
     return (
