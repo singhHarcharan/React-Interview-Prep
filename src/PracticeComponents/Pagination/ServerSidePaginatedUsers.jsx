@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-function PaginatedUsers() {
+function ServerSidePaginatedUsers() {
   const [users, setUsers] = useState([]);
   const [page, setPage] = useState(1);
   const [loading, setLoading] = useState(true);
@@ -70,7 +70,7 @@ function PaginatedUsers() {
             </ul>
         )}
       </div>
-      
+
       <div style={{ marginTop: "10px" }}>
         <button onClick={prevPage} disabled={page === 1 || loading}
             style={{
@@ -94,4 +94,4 @@ function PaginatedUsers() {
   );
 }
 
-export default PaginatedUsers;
+export default ServerSidePaginatedUsers;
