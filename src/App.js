@@ -1,4 +1,5 @@
 import Counter from "./PracticeComponents/CustomHooks/Counter";
+import DebouncedSearch from "./PracticeComponents/Debouncing/DebouncedSearch";
 import UsersList from "./PracticeComponents/FetchAPIandRender/UsersList";
 import LazyLoadingComponent from "./PracticeComponents/LazyLoading/LazyLoadingComponent";
 import ServerSidePaginatedUsers from "./PracticeComponents/Pagination/ServerSidePaginatedUsers";
@@ -11,7 +12,8 @@ function App() {
     {/* <ServerSidePaginatedUsers /> */}
     {/* <TodoList /> */}
     {/* <LazyLoadingComponent / > */}
-    <Counter />
+    {/* <Counter /> */}
+    <DebouncedSearch />
   </div>
 }
 
