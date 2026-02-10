@@ -5,6 +5,7 @@ import LazyLoadingComponent from "./PracticeComponents/LazyLoading/LazyLoadingCo
 import ServerSidePaginatedUsers from "./PracticeComponents/Pagination/ServerSidePaginatedUsers";
 import Timer from "./PracticeComponents/Timer/Timer";
 import TodoList from "./PracticeComponents/ToDoListCRUD/TodoList";
+import UseEffectCases from "./PracticeComponents/UseEffectCases/UseEffectCases";
 
 function App() {
 
@@ -15,7 +16,8 @@ function App() {
     {/* <LazyLoadingComponent / > */}
     {/* <Counter /> */}
     {/* <DebouncedSearch /> */}
-    <Timer />
+    {/* <Timer /> */}
+    <UseEffectCases />
   </div>
 }
 
