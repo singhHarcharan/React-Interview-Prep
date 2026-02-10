@@ -3,6 +3,7 @@ import DebouncedSearch from "./PracticeComponents/Debouncing/DebouncedSearch";
 import UsersList from "./PracticeComponents/FetchAPIandRender/UsersList";
 import LazyLoadingComponent from "./PracticeComponents/LazyLoading/LazyLoadingComponent";
 import ServerSidePaginatedUsers from "./PracticeComponents/Pagination/ServerSidePaginatedUsers";
+import Timer from "./PracticeComponents/Timer/Timer";
 import TodoList from "./PracticeComponents/ToDoListCRUD/TodoList";
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
     {/* <TodoList /> */}
     {/* <LazyLoadingComponent / > */}
     {/* <Counter /> */}
-    <DebouncedSearch />
+    {/* <DebouncedSearch /> */}
+    <Timer />
   </div>
 }
 
