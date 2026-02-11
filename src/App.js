@@ -1,3 +1,4 @@
+import FlexVsGrid from "./PracticeComponents/CSSFlexVsGrid/FlexVsGrid";
 import Counter from "./PracticeComponents/CustomHooks/Counter";
 import DebouncedSearch from "./PracticeComponents/Debouncing/DebouncedSearch";
 import UsersList from "./PracticeComponents/FetchAPIandRender/UsersList";
@@ -17,7 +18,8 @@ function App() {
     {/* <Counter /> */}
     {/* <DebouncedSearch /> */}
     {/* <Timer /> */}
-    <UseEffectCases />
+    {/* <UseEffectCases /> */}
+    <FlexVsGrid />
   </div>
 }
 
