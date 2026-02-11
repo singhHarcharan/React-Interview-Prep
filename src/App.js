@@ -1,4 +1,5 @@
 import FlexVsGrid from "./PracticeComponents/CSSFlexVsGrid/FlexVsGrid";
+import GridTemplateColumn from "./PracticeComponents/CSSFlexVsGrid/GridTemplateColumn";
 import Counter from "./PracticeComponents/CustomHooks/Counter";
 import DebouncedSearch from "./PracticeComponents/Debouncing/DebouncedSearch";
 import UsersList from "./PracticeComponents/FetchAPIandRender/UsersList";
@@ -19,7 +20,8 @@ function App() {
     {/* <DebouncedSearch /> */}
     {/* <Timer /> */}
     {/* <UseEffectCases /> */}
-    <FlexVsGrid />
+    {/* <FlexVsGrid /> */}
+    <GridTemplateColumn />
   </div>
 }
 
